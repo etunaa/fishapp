@@ -1,0 +1,26 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+.fishies-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 24px;
+}
+
+.fish {
+  padding: 8px;
+  margin: 16px;
+  width: 200px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+img {
+  width: 100%;
+  object-fit: cover;
+}

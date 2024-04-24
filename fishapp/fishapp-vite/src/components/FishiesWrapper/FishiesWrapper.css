@@ -6,16 +6,22 @@
 
 .fishies-wrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* .fishies {
+  display: flex;
   align-items: center;
   flex-wrap: wrap;
   padding: 0 24px;
-}
+} */
 
 .fish {
   padding: 8px;
   margin: 16px;
   width: 200px;
-  height: 300px;
+  height: 100%;
   border: 1px solid #ccc;
   border-radius: 8px;
 }
@@ -23,4 +29,11 @@
 img {
   width: 100%;
   object-fit: cover;
+}
+
+.fishies-container{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 0 24px;
 }

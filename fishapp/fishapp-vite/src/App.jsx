@@ -15,6 +15,6 @@ function App() {
       </NavBar>
       <FishiesWrapper fishies={fishies}/>
     </div>
-  )
+  );
 }
 export default App
